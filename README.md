@@ -40,3 +40,6 @@ for row in col_data[1:]:
     df.loc[length]= individual_row_data
     
 df
+
+df.to_csv("states and gdp.csv")
+
